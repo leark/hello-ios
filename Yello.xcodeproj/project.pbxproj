@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D6A1C6D1D9DFC02003849AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A1C6C1D9DFC02003849AB /* AppDelegate.swift */; };
+		9D6A1C6F1D9DFC02003849AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A1C6E1D9DFC02003849AB /* ViewController.swift */; };
+		9D6A1C721D9DFC02003849AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6A1C701D9DFC02003849AB /* Main.storyboard */; };
+		9D6A1C741D9DFC02003849AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6A1C731D9DFC02003849AB /* Assets.xcassets */; };
+		9D6A1C771D9DFC02003849AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6A1C751D9DFC02003849AB /* LaunchScreen.storyboard */; };
+		9D6A1C821D9DFC02003849AB /* YelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A1C811D9DFC02003849AB /* YelloTests.swift */; };
+		9D6A1C8D1D9DFC02003849AB /* YelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A1C8C1D9DFC02003849AB /* YelloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D6A1C7E1D9DFC02003849AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D6A1C611D9DFC02003849AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D6A1C681D9DFC02003849AB;
+			remoteInfo = Yello;
+		};
+		9D6A1C891D9DFC02003849AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D6A1C611D9DFC02003849AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D6A1C681D9DFC02003849AB;
+			remoteInfo = Yello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D6A1C691D9DFC02003849AB /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6A1C6C1D9DFC02003849AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D6A1C6E1D9DFC02003849AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D6A1C711D9DFC02003849AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D6A1C731D9DFC02003849AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D6A1C761D9DFC02003849AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D6A1C781D9DFC02003849AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6A1C7D1D9DFC02003849AB /* YelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6A1C811D9DFC02003849AB /* YelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelloTests.swift; sourceTree = "<group>"; };
+		9D6A1C831D9DFC02003849AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6A1C881D9DFC02003849AB /* YelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6A1C8C1D9DFC02003849AB /* YelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelloUITests.swift; sourceTree = "<group>"; };
+		9D6A1C8E1D9DFC02003849AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D6A1C661D9DFC02003849AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6A1C7A1D9DFC02003849AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6A1C851D9DFC02003849AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6A1C601D9DFC02003849AB = {
+			isa = PBXGroup;
+			children = (
+				9D6A1C6B1D9DFC02003849AB /* Yello */,
+				9D6A1C801D9DFC02003849AB /* YelloTests */,
+				9D6A1C8B1D9DFC02003849AB /* YelloUITests */,
+				9D6A1C6A1D9DFC02003849AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6A1C6A1D9DFC02003849AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A1C691D9DFC02003849AB /* Hello.app */,
+				9D6A1C7D1D9DFC02003849AB /* YelloTests.xctest */,
+				9D6A1C881D9DFC02003849AB /* YelloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D6A1C6B1D9DFC02003849AB /* Yello */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A1C6C1D9DFC02003849AB /* AppDelegate.swift */,
+				9D6A1C6E1D9DFC02003849AB /* ViewController.swift */,
+				9D6A1C701D9DFC02003849AB /* Main.storyboard */,
+				9D6A1C731D9DFC02003849AB /* Assets.xcassets */,
+				9D6A1C751D9DFC02003849AB /* LaunchScreen.storyboard */,
+				9D6A1C781D9DFC02003849AB /* Info.plist */,
+			);
+			path = Yello;
+			sourceTree = "<group>";
+		};
+		9D6A1C801D9DFC02003849AB /* YelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A1C811D9DFC02003849AB /* YelloTests.swift */,
+				9D6A1C831D9DFC02003849AB /* Info.plist */,
+			);
+			path = YelloTests;
+			sourceTree = "<group>";
+		};
+		9D6A1C8B1D9DFC02003849AB /* YelloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A1C8C1D9DFC02003849AB /* YelloUITests.swift */,
+				9D6A1C8E1D9DFC02003849AB /* Info.plist */,
+			);
+			path = YelloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D6A1C681D9DFC02003849AB /* Yello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6A1C911D9DFC02003849AB /* Build configuration list for PBXNativeTarget "Yello" */;
+			buildPhases = (
+				9D6A1C651D9DFC02003849AB /* Sources */,
+				9D6A1C661D9DFC02003849AB /* Frameworks */,
+				9D6A1C671D9DFC02003849AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yello;
+			productName = Yello;
+			productReference = 9D6A1C691D9DFC02003849AB /* Hello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D6A1C7C1D9DFC02003849AB /* YelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6A1C941D9DFC02003849AB /* Build configuration list for PBXNativeTarget "YelloTests" */;
+			buildPhases = (
+				9D6A1C791D9DFC02003849AB /* Sources */,
+				9D6A1C7A1D9DFC02003849AB /* Frameworks */,
+				9D6A1C7B1D9DFC02003849AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D6A1C7F1D9DFC02003849AB /* PBXTargetDependency */,
+			);
+			name = YelloTests;
+			productName = YelloTests;
+			productReference = 9D6A1C7D1D9DFC02003849AB /* YelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D6A1C871D9DFC02003849AB /* YelloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6A1C971D9DFC02003849AB /* Build configuration list for PBXNativeTarget "YelloUITests" */;
+			buildPhases = (
+				9D6A1C841D9DFC02003849AB /* Sources */,
+				9D6A1C851D9DFC02003849AB /* Frameworks */,
+				9D6A1C861D9DFC02003849AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D6A1C8A1D9DFC02003849AB /* PBXTargetDependency */,
+			);
+			name = YelloUITests;
+			productName = YelloUITests;
+			productReference = 9D6A1C881D9DFC02003849AB /* YelloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D6A1C611D9DFC02003849AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = iGuest;
+				TargetAttributes = {
+					9D6A1C681D9DFC02003849AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9D6A1C7C1D9DFC02003849AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D6A1C681D9DFC02003849AB;
+					};
+					9D6A1C871D9DFC02003849AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D6A1C681D9DFC02003849AB;
+					};
+				};
+			};
+			buildConfigurationList = 9D6A1C641D9DFC02003849AB /* Build configuration list for PBXProject "Yello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D6A1C601D9DFC02003849AB;
+			productRefGroup = 9D6A1C6A1D9DFC02003849AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D6A1C681D9DFC02003849AB /* Yello */,
+				9D6A1C7C1D9DFC02003849AB /* YelloTests */,
+				9D6A1C871D9DFC02003849AB /* YelloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D6A1C671D9DFC02003849AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6A1C771D9DFC02003849AB /* LaunchScreen.storyboard in Resources */,
+				9D6A1C741D9DFC02003849AB /* Assets.xcassets in Resources */,
+				9D6A1C721D9DFC02003849AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6A1C7B1D9DFC02003849AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6A1C861D9DFC02003849AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6A1C651D9DFC02003849AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6A1C6F1D9DFC02003849AB /* ViewController.swift in Sources */,
+				9D6A1C6D1D9DFC02003849AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6A1C791D9DFC02003849AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6A1C821D9DFC02003849AB /* YelloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6A1C841D9DFC02003849AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6A1C8D1D9DFC02003849AB /* YelloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D6A1C7F1D9DFC02003849AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D6A1C681D9DFC02003849AB /* Yello */;
+			targetProxy = 9D6A1C7E1D9DFC02003849AB /* PBXContainerItemProxy */;
+		};
+		9D6A1C8A1D9DFC02003849AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D6A1C681D9DFC02003849AB /* Yello */;
+			targetProxy = 9D6A1C891D9DFC02003849AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D6A1C701D9DFC02003849AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6A1C711D9DFC02003849AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D6A1C751D9DFC02003849AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6A1C761D9DFC02003849AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D6A1C8F1D9DFC02003849AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D6A1C901D9DFC02003849AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D6A1C921D9DFC02003849AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.Yello;
+				PRODUCT_NAME = Hello;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9D6A1C931D9DFC02003849AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.Yello;
+				PRODUCT_NAME = Hello;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9D6A1C951D9DFC02003849AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.YelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yello.app/Yello";
+			};
+			name = Debug;
+		};
+		9D6A1C961D9DFC02003849AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.YelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yello.app/Yello";
+			};
+			name = Release;
+		};
+		9D6A1C981D9DFC02003849AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.YelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Yello;
+			};
+			name = Debug;
+		};
+		9D6A1C991D9DFC02003849AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.YelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Yello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D6A1C641D9DFC02003849AB /* Build configuration list for PBXProject "Yello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6A1C8F1D9DFC02003849AB /* Debug */,
+				9D6A1C901D9DFC02003849AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6A1C911D9DFC02003849AB /* Build configuration list for PBXNativeTarget "Yello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6A1C921D9DFC02003849AB /* Debug */,
+				9D6A1C931D9DFC02003849AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D6A1C941D9DFC02003849AB /* Build configuration list for PBXNativeTarget "YelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6A1C951D9DFC02003849AB /* Debug */,
+				9D6A1C961D9DFC02003849AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D6A1C971D9DFC02003849AB /* Build configuration list for PBXNativeTarget "YelloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6A1C981D9DFC02003849AB /* Debug */,
+				9D6A1C991D9DFC02003849AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D6A1C611D9DFC02003849AB /* Project object */;
+}
