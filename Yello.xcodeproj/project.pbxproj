@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9D6A1C681D9DFC02003849AB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C7ATRBV4C6;
 						ProvisioningStyle = Automatic;
 					};
 					9D6A1C7C1D9DFC02003849AB = {
@@ -412,9 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C7ATRBV4C6;
 				INFOPLIST_FILE = Yello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.Yello;
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.hello;
 				PRODUCT_NAME = Hello;
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C7ATRBV4C6;
 				INFOPLIST_FILE = Yello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.Yello;
+				PRODUCT_BUNDLE_IDENTIFIER = ischool.uw.edu.hello;
 				PRODUCT_NAME = Hello;
 				SWIFT_VERSION = 3.0;
 			};
